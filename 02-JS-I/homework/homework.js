@@ -4,19 +4,19 @@
 const nuevaString = 'aprendiendo';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 'hola';
+const nuevoNum = 3;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -25,32 +25,38 @@ const nuevoModulo = 21 % 5 === null;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString(str) {
+function devolverString('str') {
+  return (devolverString.length);
   // "Return" la string provista: str
   // Tu código:
   
 }
 
-function suma(x, y) {
+function suma (x, y) {
+  return x + y;
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   
 }
 
+
 function resta(x, y) {
+  return x - y;
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   
 }
 
 function multiplica(x, y) {
+  return x * y;
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   
 }
 
 function divide(x, y) {
+  return x / y;
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   

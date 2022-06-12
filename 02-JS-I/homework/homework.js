@@ -181,7 +181,7 @@ function numeroRandom() {
 function esPositivo(numero) {
   if (numero > 0) {
   return 'es positivo'; } 
-    else(numero < 0) {
+    else(numero < 0)
       return 'es negativo';
   }
   if (num == 0) {

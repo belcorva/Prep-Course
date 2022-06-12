@@ -180,8 +180,9 @@ function numeroRandom() {
 
 function esPositivo(numero) {
   if (numero > 0) {
-  return 'es positivo'; } {
-    else 'es negativo';
+  return 'es positivo'; } 
+    else(numero < 0) {
+      return 'es negativo';
   }
   if (num == 0) {
     return false;
